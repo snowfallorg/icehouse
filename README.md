@@ -80,7 +80,7 @@ You can install this package by adding it as an input to your Nix flake.
 
 If you've added the overlay from this flake, then in your system configuration you can add the `snowfallorg.icehouse` package.
 
-```bash
+```nix
 { pkgs }:
 
 {
