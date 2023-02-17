@@ -26,7 +26,7 @@
 You can try Ice House without committing to installing it on your system by running the following command.
 
 ```bash
-nix run github:snowfallorg/icehouse
+nix run github:snowfallorg/icehouse#icehouse
 ```
 
 ## Install Ice House
