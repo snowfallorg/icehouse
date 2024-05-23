@@ -21,6 +21,16 @@
 >
 > Ice House requires ZFS support to function properly.
 
+## About
+
+Ice House allows you to easily and quickly initialize drives for use as backup and to create incremental
+snapshots that are stored on them. For usage information, see `icehouse --help`.
+
+Typically, you will want to run `icehouse init --drive /dev/sdx --pool backup` to initialize a new ZFS
+pool on a drive. This process includes LUKS encryption, requiring a password during configuration. Once
+initialized, you can begin backing up any system that uses ZFS by running
+`icehouse backup --drive /dev/sdx --pool backup`.
+
 ## Try Without Installing
 
 You can try Ice House without committing to installing it on your system by running the following command.
