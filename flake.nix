@@ -5,7 +5,7 @@
     nixpkgs.url = "github:nixos/nixpkgs/nixos-23.05";
 
     snowfall-lib = {
-      url = "github:snowfallorg/lib";
+      url = "github:snowfallorg/lib?ref=v3.0.2";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };
